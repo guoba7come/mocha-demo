@@ -40,7 +40,8 @@ $ mocha add.test.js  # mocha测试
 ### 覆盖率测试
 ```bash
 $ npm install -g istanbul
-
+```
+```bash
 $ istanbul cover add.js
 
 =============================== Coverage summary ===============================
@@ -72,4 +73,4 @@ Functions    : 100% ( 3/3 )
 Lines        : 100% ( 8/8 )
 ================================================================================
 ```
-![testover](./img/cover.png "测试覆盖率报告")
+![testover](/img/cover.png "测试覆盖率报告")
