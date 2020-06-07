@@ -1,7 +1,6 @@
 # mocha-demo
 
 ## mocha 单元测试
-***
 ```js
 // add.js
 function add(x, y) {
@@ -38,7 +37,6 @@ $ mocha add.test.js  # mocha测试
 ```
 
 ## istanbul 测试覆盖率
-***
 ### 覆盖率测试
 ```bash
 $ npm install -g istanbul
@@ -55,6 +53,7 @@ Lines        : 66.67% ( 2/3 )
 ### 与测试框架结合
 ```bash
 $ istanbul cover _mocha add.test.js
+
  加法函数的测试
     ✓ 1 加 1 应该等于 2
 
@@ -74,4 +73,3 @@ Lines        : 100% ( 8/8 )
 ================================================================================
 ```
 ![testover](img/cover.png "测试覆盖率报告")
-[测试覆盖率报告](coverage/lcov-report/index.html)
