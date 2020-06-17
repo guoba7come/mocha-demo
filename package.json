@@ -1,0 +1,27 @@
+{
+  "name": "mocha-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "calc.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha-headless-chrome -f test/index.html -a no-sandbox"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guoba7come/mocha-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guoba7come/mocha-demo/issues"
+  },
+  "homepage": "https://github.com/guoba7come/mocha-demo#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "istanbul": "^0.4.5",
+    "lrd": "0.0.1",
+    "mocha": "^8.0.1",
+    "mocha-headless-chrome": "^3.1.0"
+  }
+}
