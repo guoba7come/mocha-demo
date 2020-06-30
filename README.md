@@ -78,7 +78,7 @@ Lines        : 100% ( 8/8 )
 ## 优化（动态单元测试、Grunt工具自动执行单元测试）
 ### 动态单元测试
 ```js
-\\ add.js
+// add.js
 function add(x, y) {
     var _x = Number(x),
         _y = Number(y)
@@ -92,7 +92,7 @@ function add(x, y) {
 module.exports = add;
 ```
 ```js
-\\ test\add.test.js
+// test\add.test.js
 describe('加法函数的动态测试', function () {
     var tests_normal = [
         { args: [0, 0], exp: 0 },
@@ -133,16 +133,16 @@ $ npm install grunt grunt-mocha-cli grunt-mocha-istanbul -D
 修改package.json
 ```json
 {
-  ...
+
   "scripts": {
     "test": "grunt"
-  },
-  ...
+  }
+
 }
 ```
 
 ```js
-\\ Gruntfile.js
+// Gruntfile.js
 module.exports = function (grunt) {
     grunt.initConfig({
         mochacli: {
@@ -181,11 +181,11 @@ module.exports = function (grunt) {
 
 运行
 ```bash
-$ npm test
+$ npm test  # mocha单元测试
 # 或
 $ grunt
 
-$ grunt cover
+$ grunt cover  #测试覆盖率
 
-$ grunt check-cover
+$ grunt check-cover #测试指标，要做运行测试覆盖率之后，才能执行
 ```
