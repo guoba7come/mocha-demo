@@ -1,0 +1,26 @@
+{
+  "name": "mocha-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guoba7come/mocha-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guoba7come/mocha-demo/issues"
+  },
+  "homepage": "https://github.com/guoba7come/mocha-demo#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.0.1",
+    "sinon": "^9.0.2",
+    "sinon-chai": "^3.5.0"
+  }
+}
