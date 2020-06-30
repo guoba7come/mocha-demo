@@ -92,7 +92,7 @@ function add(x, y) {
 module.exports = add;
 ```
 ```js
-// test\add.test.js
+// test/add.test.js
 describe('加法函数的动态测试', function () {
     var tests_normal = [
         { args: [0, 0], exp: 0 },
