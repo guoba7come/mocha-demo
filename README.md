@@ -82,9 +82,9 @@ describe('矩形计算大的单元测试', function() {
 修改package.json文件
 ```json
 {
-	"scripts": {
-    "test": "./node_modules/.bin/mocha-headless-chrome -f test/index.html -a no-sandbox"
-  },
+    "scripts": {
+        "test": "./node_modules/.bin/mocha-headless-chrome -f test/index.html -a no-sandbox"
+    },
 }
 ```
 
