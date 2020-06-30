@@ -1,0 +1,33 @@
+{
+  "name": "mocha-demo",
+  "version": "1.0.0",
+  "description": "## mocha 单元测试 ```js // add.js function add(x, y) {     return x + y; }",
+  "main": "add.js",
+  "dependencies": {
+    "lrd": "^0.0.1",
+    "mocha-headless-chrome": "^3.1.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "grunt": "^1.1.0",
+    "grunt-mocha-cli": "^6.0.0",
+    "grunt-mocha-istanbul": "^5.0.2",
+    "istanbul": "^0.4.5",
+    "mocha": "^8.0.1",
+    "mochawesome": "^6.1.1"
+  },
+  "scripts": {
+    "test": "grunt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guoba7come/mocha-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guoba7come/mocha-demo/issues"
+  },
+  "homepage": "https://github.com/guoba7come/mocha-demo#readme"
+}
